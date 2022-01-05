@@ -53,16 +53,6 @@
 .scroller-1JbKMe, .container-3w7J-x, .panels-j1Uci_ {
   background-color: var(--background-secondary);
 }
-/* .channelTextArea-rNsIhG{ */
-/*   height: 53px; */
-/*   margin-bottom: 0px; */
-/*   padding-bottom: 0px; */
-/*   border-radius: 0px; */
-/* } */
-/* .scrollableContainer-2NUZem { */
-/*   height: 100%; */
-/*   border-radius: 0px; */
-/* } */
 
 .iconContainer-1BBaeJ {
  display: none;
@@ -73,17 +63,6 @@
 .username-1A8OIy::after, .username-1A8OIy::before {
  color: var(--text-muted);
 }
-/* .buttons-3JBrkn > button { */
-/*   display: none; */
-/* } */
-
-/* .form-2fGMdU { */
-/*   padding: 0px; */
-/* } */
 .peopleColumn-29fq28 {
     background-color: var(--background-primary);
 }
-
-/* .sprite-2iCowe { */
-/*     filter: grayscale(0%); */
-/* } */
