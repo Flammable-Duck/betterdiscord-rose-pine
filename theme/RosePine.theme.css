@@ -8,7 +8,7 @@
 
 :root {
   --font-primary: "Cascadia Code", Whitney,"Helvetica Neue",Helvetica,Arial,sans-serif;
-  --font-code: "CaskaydiaCove" ,Consolas,"Andale Mono WT","Andale Mono","Lucida Console","Lucida Sans Typewriter","DejaVu Sans Mono","Bitstream Vera Sans Mono","Liberation Mono","Nimbus Mono L",Monaco,"Courier New",Courier,monospace;
+  --font-code: "Cascadia Code" ,Consolas,"Andale Mono WT","Andale Mono","Lucida Console","Lucida Sans Typewriter","DejaVu Sans Mono","Bitstream Vera Sans Mono","Liberation Mono","Nimbus Mono L",Monaco,"Courier New",Courier,monospace;
 }
 
 .theme-dark{
@@ -74,5 +74,5 @@
 .username__0b0e7::after  {content: ">";} */
 
 .timestamp_c79dd2.latin24CompactTimeStamp_f2f700 {
-    width: 4rem;
+    width: 3.3rem;
 }
