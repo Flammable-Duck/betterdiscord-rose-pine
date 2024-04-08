@@ -2,15 +2,15 @@
  * @name Rosé Pine
  * @author ThatOneCalculator, Flammable Duck
  * @description Soho vibes for Discord
- * @version 0.2
+ * @version 0.3
  */
 
 
 :root {
-  --font-primary: "CaskaydiaCove Nerd Font", Whitney,"Helvetica Neue",Helvetica,Arial,sans-serif;
-  --font-display: "SF Pro Display" Ginto,"Helvetica Neue",Helvetica,Arial,sans-serif;
+  --font-primary: "Cascadia Code", Whitney,"Helvetica Neue",Helvetica,Arial,sans-serif;
   --font-code: "CaskaydiaCove" ,Consolas,"Andale Mono WT","Andale Mono","Lucida Console","Lucida Sans Typewriter","DejaVu Sans Mono","Bitstream Vera Sans Mono","Liberation Mono","Nimbus Mono L",Monaco,"Courier New",Courier,monospace;
 }
+
 .theme-dark{
   /* text */
   --text-normal: #e0def4;
@@ -54,15 +54,25 @@
   background-color: var(--background-secondary);
 }
 
-.iconContainer-1BBaeJ {
- display: none;
-}
-
-.username-1A8OIy::before  {content: "<@";}
-.username-1A8OIy::after  {content: ">";}
-.username-1A8OIy::after, .username-1A8OIy::before {
- color: var(--text-muted);
-}
 .peopleColumn-29fq28 {
     background-color: var(--background-primary);
+}
+
+/* username stuff */
+[class^="name_"], [class^="username_"], .nickname_db3773 {
+    font-weight: bold;
+}
+
+[class^="username__"]::before, [class^="username__"]::after {
+ color: var(--text-muted);
+}
+
+[class^="username__"]::before  {content: "<@";}
+[class^="username__"]::after  {content: ">";}
+
+/* .username__0b0e7::before  {content: "<@";}
+.username__0b0e7::after  {content: ">";} */
+
+.timestamp_c79dd2.latin24CompactTimeStamp_f2f700 {
+    width: 4rem;
 }
