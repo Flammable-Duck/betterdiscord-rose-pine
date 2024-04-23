@@ -18,17 +18,20 @@
   --text-link: #d7827e;
   /* interactive */
   --interactive-normal: #d7827e;
+  --interactive-active: var(--interactive-normal);
   --interactive-hover: #575279;
-  --interactive-active: #d7827e;
   --interactive-muted: #9893a5;
   /* background */
   --channeltextarea-background: #26233a;
   --background-primary: #191724;
-  --background-floating: #191724;
+  --background-floating: var(--background-primary);
   --background-secondary: #1f1d2e;
-  --background-secondary-alt: #1f1d2e;
+  --background-secondary-alt: var(--background-secondary);
   --background-tertiary: #26233a;
   --background-accent: #747f8d;
+
+  /* misc */
+  --card-secondary-bg: var(--background-secondary);
 }
 
 .theme-light {
